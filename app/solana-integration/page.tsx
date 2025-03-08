@@ -27,8 +27,6 @@ export default function SolanaIntegrationPage() {
       <div className="absolute inset-0 bg-grid-pattern opacity-5 pointer-events-none"></div>
       <div className="absolute inset-0 bg-gradient-to-b from-black via-black to-background/50 pointer-events-none"></div>
 
-      <Navigation />
-
       <main className="flex-1 container px-4 py-12 md:px-6 md:py-24 relative">
         <div className="flex items-center gap-2 text-terminal-dim font-mono mb-8">
           <Link href="/" className="hover:text-terminal-text transition-colors">
@@ -543,7 +541,6 @@ export default function SolanaIntegrationPage() {
         </section>
       </main>
 
-      <Footer />
       <ScrollToTop />
     </div>
   )
